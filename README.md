@@ -8,6 +8,7 @@
     numero_porte - TINYINT UNSIGNED - NOT NULL
     prezzo - DECIMAL(7, 2) - NOT NULL
     anno_immatricolazione - DATE NOT NULL
+    numero_immatricolazione - VARCHAR(10) - NOT NULL - UNIQUE
     chilometri - MEDIUMINT UNSIGNED - NOT NULL
     alimentazione - VARCHAR(20) - NOT NULL
     cilindrata - SMALLINT -NULL
